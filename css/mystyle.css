@@ -1,7 +1,23 @@
 #navbar{
+	display: inline-block;
 	width:1349px;
-	height:735px;
+	height:71px;
 	background-color:#fff;
 	position:fixed;
 	border-bottom: 1px solid #ddd;
+} 
+
+img.logo{
+	width: 26px;
+	height:70px;
+}
+
+#navbar ul {
+	list-style-type:none;
+	display:inline-block;
+	width:1000px;
+}
+
+#navbar li{
+	float:left;
 }
