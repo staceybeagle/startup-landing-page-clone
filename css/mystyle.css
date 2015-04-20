@@ -1,5 +1,4 @@
 #navbar{
-	display: inline-block;
 	width:1349px;
 	height:71px;
 	background-color:#fff;
@@ -14,7 +13,7 @@ img.logo{
 
 #navbar ul {
 	list-style-type:none;
-	display:inline-block;
+	display: inline-block;
 	width:1000px;
 }
 
