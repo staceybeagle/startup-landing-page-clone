@@ -1,22 +1,47 @@
-#navbar{
-	width:1349px;
-	height:71px;
+html{
+	box-sizeing:border-box;
+}
+
+.top-nav{
+	
 	background-color:#fff;
 	position:fixed;
 	border-bottom: 1px solid #ddd;
 } 
 
+#navbar{
+	width: 970px;
+	height:70px;
+	margin: 0 auto;
+	font-family:'Roboto', sans-serif;
+	font-size: 16px;
+	color:#838994;
+	letter-spacing:0.03em;
+}
+
 img.logo{
 	width: 26px;
-	height:70px;
+	padding: 0 15px;
 }
 
 #navbar ul {
 	list-style-type:none;
-	display: inline-block;
-	width:1000px;
+	float:right;
+	margin-top:25px;
+	-webkit-font-smoothing: antialiased;
 }
 
 #navbar li{
-	float:left;
+	display: inline-block;
+	margin-left:25px;
+}
+
+#navbar ul span{
+	color: #4c5058;
+	font-weight: 500;
+}
+
+#navbar li:hover{
+	cursor:pointer;
+	color:#333333;
 }
