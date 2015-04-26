@@ -82,8 +82,8 @@ img.logo{
 }
 
 .backgroundimage h3{
-	margin-top:1.25rem
 	font-size:1.563rem;
+	margin-top:1.25rem
 }
 
 p.button{
@@ -101,4 +101,45 @@ p.button{
 .backgroundimage p:hover{
 	cursor:pointer;
 	background-color:#f14a29;
+}
+
+.threeicons{
+	margin-top:7.875rem;
+	color:1d1e21;
+	text-align:center;
+	width:1349px;
+	height:525px;
+	overflow:hidden;
+	padding-bottom:5rem;
+}
+.threeicons h2{
+	display:block;
+	font-size:2.75rem;
+	margin:1.625rem 0 3.125rem;
+	font-weight:300;
+}
+
+.threeicons ul{
+	list-style-type:none;
+	display:block;
+
+}
+
+.threeicons li{
+	width:33.3333333%;
+	float:left;
+	display:list-item;
+	list-style:none;
+}
+
+img.computer, img.coffee, img.gas{
+	width:127px;
+	height:127px;
+}
+
+.caption{
+	display:block;
+	font-weight:400;
+	font-size:1.563rem;
+	margin:2.5rem 0px 1.875rem;
 }
