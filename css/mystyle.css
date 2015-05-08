@@ -160,13 +160,15 @@ footer{
 	display:block;
 }
 
-h5{
+.content h5{
 	display:block;
+	text-align:center;
 }
 
 .content ul{
 	list-style:none;
 	display:block;
+	text-align:center;
 }
 
 .content li{
@@ -185,7 +187,7 @@ h5{
 	font:normal normal normal 14px/1 FontAwesome;
 }
 
-.fa-twitter" {
+.fa-twitter {
 	color:#55acee;
 }
 
@@ -198,7 +200,15 @@ h5{
 }
 
 .content p{
+	text-align:center;
 	font-size 0.9rem;
 	font-weight:300;
 	color:#838994;
+}
+
+.content hr{
+	display:block;
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
 }
